@@ -1,0 +1,106 @@
+.container-form {
+  .tryout {
+    background-color: #5e54a4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+
+    a {
+      display: block;
+      font-weight: 200;
+      margin: 0 auto;
+      text-align: center;
+      color: #fff;
+      width: 180px;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 26px;
+
+      strong {
+        font-weight: 700;
+      }
+    }
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+
+    small {
+      display: block;
+      text-align: right;
+      font-size: 11px;
+      line-height: 16px;
+      font-weight: 500;
+      font-style: italic;
+      color: #ff7979;
+      display: none;
+    }
+
+    label {
+      padding: 10px;
+      border: 1px solid #dedede;
+      width: 100%;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+
+      .error-icon {
+        display: none;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:focus-within {
+        border: 1px solid #5e54a4;
+      }
+
+      input {
+        width: 100%;
+        font-size: 14px;
+        color: #3d3b48;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        border: none;
+        outline: none;
+      }
+    }
+
+    input[type='submit'] {
+      width: 100%;
+      border: 0;
+      color: #fff;
+      background-color: #38cc8b;
+      padding: 15px;
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 600;
+      text-transform: uppercase;
+      box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .terms {
+      font-size: 11px;
+      line-height: 21px;
+      color: #a6a1cf;
+      text-align: center;
+      display: block;
+      padding: 15px 20px 0 20px;
+
+      a {
+        text-decoration: none;
+        color: #ff7979;
+      }
+    }
+  }
+}

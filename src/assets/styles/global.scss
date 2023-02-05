@@ -12,4 +12,11 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../images/bg-intro-mobile.png') #ff7979 repeat center center;
+
+  .container {
+    width: 327px;
+    font-family: Poppins;
+    font-weight: 400;
+  }
 }
