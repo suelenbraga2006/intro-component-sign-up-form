@@ -110,3 +110,17 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .container-form {
+    .tryout {
+      a {
+        width: 100%;
+      }
+    }
+
+    form {
+      padding: 35px;
+    }
+  }
+}

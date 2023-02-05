@@ -18,3 +18,17 @@
     margin-bottom: 30px;
   }
 }
+
+@media (min-width: 1440px) {
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+    h1 {
+      font-size: 50px;
+      line-height: 55px;
+    }
+  }
+}
