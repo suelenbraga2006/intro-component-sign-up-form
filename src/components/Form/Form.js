@@ -4,6 +4,10 @@ import './style.scss';
 
 import errorIcon from '../../assets/images/icon-error.svg';
 
+function handleSubmit(e) {
+  e.preventDefault();
+}
+
 function Form() {
   return (
     <div className="container-form">
@@ -33,7 +37,12 @@ function Form() {
           <img src={errorIcon} alt="Error" className="error-icon" />
         </label>
         <small>Error Message</small>
-        <input type="submit" className="submit" value="CLAIM YOUR FREE TRIAL" />
+        <input
+          type="submit"
+          className="submit"
+          value="CLAIM YOUR FREE TRIAL"
+          onClick={handleSubmit}
+        />
         <div className="terms">
           By clicking the button, you are agreeing to our{' '}
           <a href="/terms">Terms and Services</a>
